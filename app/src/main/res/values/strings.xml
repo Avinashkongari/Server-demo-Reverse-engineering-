@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Axion Stream</string>
+    <string name="brand_wordmark">AXION STREAM</string>
+    <string name="brand_subtitle">ADMIN CONTROL</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_add_movie">Add</string>
+    <string name="nav_videos">Videos</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Status -->
+    <string name="status_online">ONLINE</string>
+    <string name="status_offline">OFFLINE</string>
+    <string name="status_checking">CHECKING</string>
+    <string name="status_available">Available</string>
+    <string name="status_missing">Missing File</string>
+    <string name="status_unverified">Unverified</string>
+
+    <!-- Actions -->
+    <string name="action_refresh">Refresh</string>
+    <string name="action_retry">Retry Connection</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="action_add_movie">Register Movie</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_play_preview">Play Preview</string>
+    <string name="action_copy_url">Copy URL</string>
+    <string name="action_verify_streams">Verify Streams</string>
+    <string name="action_test_connection">Test Connection</string>
+    <string name="action_save_settings">Save Configuration</string>
+    <string name="action_logout">Clear Token &amp; Logout</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_total_movies">Total Movies</string>
+    <string name="dashboard_registered_movies">Registered Catalog</string>
+    <string name="dashboard_storage_usage">Video Storage</string>
+    <string name="dashboard_backend_status">Backend Status</string>
+    <string name="dashboard_recent_movies">Recently Added</string>
+    <string name="dashboard_api_audit">Backend API Status</string>
+
+    <!-- Errors & Empty States -->
+    <string name="error_backend_offline">Unable to reach Termux backend. Ensure your Node.js server is running and verify the Backend URL in Settings.</string>
+    <string name="error_missing_admin_token">Admin token not configured. Open Settings to enter your X-Admin-Token before performing admin actions.</string>
+    <string name="empty_catalog_title">No Movies Registered</string>
+    <string name="empty_catalog_subtitle">Your Termux SQLite database returned an empty catalog. Register an existing video file from the Add tab.</string>
+</resources>
